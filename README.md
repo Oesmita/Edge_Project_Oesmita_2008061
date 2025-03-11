@@ -66,3 +66,28 @@ To run the project locally, you need to install the required Python libraries. Y
 
 ```bash
 pip install -r requirements.txt
+
+Required libraries:
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+Running the Project:
+
+Upload the iris.csv file and the logistic_regression_svm_analysis.ipynb notebook to your Jupyter notebook environment (e.g., Google Colab or Jupyter Lab).
+Run the notebook cells in order to:
+Load the dataset
+Preprocess the data
+Train the Logistic Regression and SVM models
+Evaluate the models' performance
+Results:
+The notebook will output accuracy scores, classification reports, and confusion matrices for both models, along with visualizations for better understanding.
+
+Project Structure
+iris.csv: The dataset.
+logistic_regression_svm_analysis.ipynb: The Jupyter notebook with the full analysis.
+requirements.txt: Lists the Python dependencies.
+Conclusion
+This project demonstrates how to apply Logistic Regression and SVM to a classic dataset and compare their performance using various metrics. Both algorithms are trained and tested on the same dataset, and the results are analyzed using classification reports and confusion matrices.
